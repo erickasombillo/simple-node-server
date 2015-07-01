@@ -1,18 +1,19 @@
 <!doctype html>
 <html>
     <head>
-        <title>Forms 2</title>
+        <title>Exercise 14: Forms 2</title>
     </head>
     <body>
+        <form>
         <h2>Order Form</h2>
         <fieldset>
             <legend>Customer Details</legend>
             <br>
-            <label> Customer name: <input type="text" name="name" required></label> <br>
+            <label> Customer name: <input type="text" name="Customer name" required></label> <br>
             <br>
-            <label> Mobile number: <input type="text" name="number" required></label><br>
+            <label> Mobile number: <input type="text" name="Mobile number" required></label><br>
             <br>
-            <label>E-mail address: <input type="text" name="address"></label>
+            <label>E-mail address: <input type="email" name="email"></label>
             <br>
         <br>
         </fieldset>
@@ -22,11 +23,11 @@
             <br>
             Flavor:
             <select name="flavor">
-            <option value="hawaii">Hawaiian</option>
-            <option value="hamncheese">Ham and Cheese</option></option>
-            <option value="veges">Vegetarian</option>
-            <option value="cheese">Double Cheese</option>
-            <option value="hambacon">Ham and Bacon</option>
+            <option value="hawaiian">Hawaiian</option>
+            <option value="double cheese">Double Cheese</option></option>
+            <option value="vmargherita">Margherita</option>
+            <option value="bbq bacon cheeseburger">Barbecue Bacon Cheeseburger</option>
+            <option value="pepperoni">Pepperoni and Cheese</option>
             </select>
             <br>
             <br>
@@ -61,5 +62,6 @@
         <br>
         <button type="reset">Reset</button>
         <button type="submit">Submit Order</button>
+        </form>
     </body>
 </html>
