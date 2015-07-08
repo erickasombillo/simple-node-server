@@ -1,20 +1,23 @@
-p {
-    background-color: lightblue;
-    width: 200px;
-/*The box model properties*/
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
+p{
+background-color: lightblue;
+width: 200px;
+border: 20px solid gray;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+/*SAME AS*/
+margin: 10px 20px 30px 40px;
+/*first value for top, second for right, third for bottom and fourth for left*/
 }
 
-p {
-    background-color: lightblue;
-    width: 200px;
-
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-/*SAME AS*/
-    padding: 25px;
+.cent {
+margin: auto;
+background: lightblue;
+width: 66%;
+}
+.uncent {
+margin: 20px;
+background: lightblue;
+width: 66%;
 }
