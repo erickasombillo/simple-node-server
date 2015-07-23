@@ -3,7 +3,7 @@ body {
 }
 
 .rect {
-    color: #84befe;
+    padding: 30px 10px 30px 10px;
     width: 100px;
     height: 200px;
     position: fixed;
@@ -12,6 +12,15 @@ body {
     border: dashed;
     border-color: #84befe;
     border-width:2.5pt;
+}
+
+.rect a {
+    z-index: 1;
+    text-decoration: none;
+    color: #84befe;
+    background-color: white;
+    font-size: 35pt;
+    text-align: center;
 }
 
 .whole {
@@ -58,7 +67,10 @@ body {
     left: 40px;
 }
 
-a {
+.nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
     z-index: 1;
     float: left;
     width: 155px;
